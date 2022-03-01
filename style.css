@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+h1, h2, p {
+    text-align: center;
+}
+h1 {
+    color: rgb(231, 126, 144);
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 120;
+
+}
+h2 {
+    color:rgb(57, 92, 206);
+    font-size: 150px;
+    font-family: italic;
+ 
+}
+
+h4 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Andung-text  {
+    text-align: justify;
+    font-size: 40px;
+    color: hsl(246, 76%, 53%);
+    margin-bottom: 20px;
+}
+#Joann-text{
+    text-align: center;
+    font-size: 40px;
+    color: hsl(0, 100%, 50%);
+    margin-bottom: 20px;
+}
+.Bella-text{
+    text-align: justify;
+    font-size: 40px;
+    color: #8a2be2;
+    margin-bottom: 20px;
+}
+a{
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+    margin: 20px auto 0 auto;
+    
+}
+.blog-post{
+    width: 175%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+}
+.other-post{
+    width: 25%;
+    float: left;
+    font-size: 40px;
+    
+}
+.author-box{
+    border-top: 1px solid ;
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+}
